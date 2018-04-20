@@ -1,4 +1,4 @@
-# #11 Tutorial: MySql JDBC in a Spring Project
+# #6 Tutorial: MySql JDBC in a Spring Project
 
 ## Add this to your pom.xml file
 ````      
@@ -24,7 +24,7 @@ And click on "Import Changes" in the lower right corner
 
 ````    
     	@Autowired
-    	IUserRepository userRepository = new UserRepository();
+    	IUserRepository userRepository;
 
 ````    
 ## Create a UserRepository that implements the IUserRepository interface
